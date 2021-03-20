@@ -7,7 +7,7 @@ My playground project in Unity to create and test features, that are too small t
 
 [Presentation video](https://youtu.be/eu4oFNvJjLs)
 
-This component is used generic types, so you can use it not only with GameObjects. Just inherit the RangeChancesController<T> and define the type instead of T.
+This component is used generic types, so you can use it not only with GameObjects. Just inherit the RangeChancesController<T> and define the type instead of T. 
 ![Code sample 0](https://user-images.githubusercontent.com/36485221/111867108-444b6180-8972-11eb-89f4-b9b6673ace1a.png)
 
 Also, make sure you created the separate class for UI presentation of your inherited component in the Editor folder.
@@ -20,3 +20,5 @@ You can control ranges with:
 * Slider in the Editor
 * Changing the RawChance value in the Editor
 * From code (ATTENTION! In code you can change object's chance range only with the function SetUnitRange(Vector2 newRange)).
+
+The component was created with build-in Unity's functions, so you can plug-and-play it to any project without dependencies.
